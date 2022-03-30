@@ -42,4 +42,5 @@ async def post_calc(body: CalcPostRequest):
 
     return responce
 
+
 #127.0.0.1:8000/calc?expression=44*2
