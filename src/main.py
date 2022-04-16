@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Depends
 
-from models import CalcGetRequest, CalcPostRequest, CalcResponce
+from .models import CalcGetRequest, CalcPostRequest, CalcResponce
 
 app = FastAPI()
 
